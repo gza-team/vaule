@@ -16,10 +16,17 @@ tab.newButton("Click Update Plugin", "Update New in 24/9/2023", function()
 writefile("DeltaPlugins/plugingza.txt", key)
 end)
 
-tab.newButton("Open Delta", "Open Tab/Menu", function()
+tab.newButton("Keyless Delta", "Delete Key", function()
+game.CoreGui.Delta.KeySystem.Holder.Visible = false
+game.CoreGui.Delta.Executor.Visible = true 
+game.CoreGui.Delta.Sidebar.Visible = true
 game.CoreGui.Delta.Sidebar.Position = UDim2.new(1, 0, 0.474000007, 0)
-end")
-writefile("DeltaPlugins/plugingza.txt", key)
+local key2 = ("
+game.CoreGui.Delta.KeySystem.Holder.Visible = false
+game.CoreGui.Delta.Executor.Visible = true 
+game.CoreGui.Delta.Sidebar.Visible = true
+game.CoreGui.Delta.Sidebar.Position = UDim2.new(1, 0, 0.474000007, 0)")
+writefile("DeltaPlugins/plugingzkeya.txt", key2) 
 end)
 
 tab.newButton("Open Delta", "Open Tab/Menu", function()
