@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/gza-team/gza-team.github.io/main/Ult", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gza-team/vaule/main/Ulm"))()
