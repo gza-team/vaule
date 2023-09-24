@@ -5,19 +5,19 @@ local window = DrRayLibrary:Load("GZA TOOL", "14860587530")
 local tab = DrRayLibrary.newTab("Plugin", "14860587530")
 
 tab.newButton("Click Update Plugin", "Update New in 24/9/2023", function()
-    local key = ("https://raw.githubusercontent.com/gza-team/vaule/main/Key")
+    local key = game:HttpGet("https://raw.githubusercontent.com/gza-team/vaule/main/Key")
 writefile("DeltaPlugins/plugingza.txt", key)
 end)
 
-tab.newButton("Keyless Delta", "Delete Key", function()
+tab.newButton("Keyless Delta", "Remove Key", function()
 game.CoreGui.Delta.KeySystem.Holder.Visible = false
 game.CoreGui.Delta.Executor.Visible = true 
 game.CoreGui.Delta.Sidebar.Visible = true
 game.CoreGui.Delta.Sidebar.Position = UDim2.new(1, 0, 0.474000007, 0)
-local key2 = ("https://raw.githubusercontent.com/gza-team/vaule/main/keyless") 
-writefile("DeltaPlugins/plugingzkeya.txt", key2) 
+    local key2 = game:HttpGet("https://raw.githubusercontent.com/gza-team/vaule/main/keyless")
+writefile("DeltaPlugins/plugingzakeyless.txt", key2)
 end)
 
-tab.newButton("Open Delta", "Open Tab/Menu", function()
+tab.newButton("Open Tab/Menu", "Tab/Menu", function() 
 game.CoreGui.Delta.Sidebar.Position = UDim2.new(1, 0, 0.474000007, 0)
 end)
