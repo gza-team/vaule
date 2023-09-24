@@ -1,0 +1,4 @@
+game.CoreGui.Delta.KeySystem.Holder.Visible = false
+game.CoreGui.Delta.Executor.Visible = true 
+game.CoreGui.Delta.Sidebar.Visible = true
+game.CoreGui.Delta.Sidebar.Position = UDim2.new(1, 0, 0.474000007, 0)
