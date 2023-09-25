@@ -23,7 +23,7 @@ game.CoreGui.Delta.Sidebar.Position = UDim2.new(1, 0, 0.474000007, 0)
 end)
 
 tab.newInput("input script your here", "input script.", function(text)
-    local script = (text)
+    local script = text
 end)
 
 tab.newButton("Executor", "Executor Script", function()
