@@ -1,3 +1,13 @@
+delta.Settings:AddInput("Print Input", "Prints what you put in your textbox.", function(sp)
+humanoid.WalkSpeed = sp
+end)
+
+delta:SetCurrentSuggestionScript("Power", "GZA TEAM", function()
+  print("Clicked!")
+end)
+
+delta:AddTab("gza-team.exe", "Executor For PC😈")
+
 local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
 
 local window = DrRayLibrary:Load("GZA TOOL", "14860587530")
