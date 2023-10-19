@@ -2,6 +2,7 @@ delta.Settings:AddInput("SpeedHacks", "input your speed like.", function(sp)
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = sp
 end)
 
+
 delta:SetCurrentSuggestionScript("Power", "GZA TEAM", function()
   print("Clicked!")
 end)
